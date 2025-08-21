@@ -1,49 +1,44 @@
-📊 Accountant for Pi | محاسب بى
+📊 Accountant for Pi | محاسب باي
 
-Your personal accounting assistant, designed specifically for Pi users!
-The app helps you manage all your financial transactions in a simple and easy way.
+Your personal accounting assistant, designed specifically for Pi Network users!  
+The app helps you manage all your financial transactions easily and securely.
 
 🚀 Features
-
-• 🔹 Track your Pi wallet balance and view recent transactions
-• 🔹 Create sales and purchase invoices with just a few clicks
-• 🔹 Get help from a built-in accounting assistant who will answer your questions
-• 🔹 Create QR codes to facilitate Pi payments
-• 🔹 Manage inventory and receive alerts when items are running low
-• 🔹 View financial reports such as income statements and balance sheets
-• 🔹 Full support in both Arabic and English
+- 🔹 Track your Pi wallet balance and view recent transactions
+- 🔹 Create sales and purchase invoices with just a few clicks
+- 🔹 Get help from a built-in accounting assistant for instant guidance
+- 🔹 Generate QR codes for fast Pi payments
+- 🔹 Manage inventory with low-stock alerts
+- 🔹 View financial reports, including income statements and balance sheets
+- 🔹 Full support in both Arabic and English
 
 📖 Overview
-
-The app makes accounting easy and simple, even if you've never tried it before.
-• You can chat with the accounting bot at any time for quick assistance.
-• You can connect with a personal accountant if you need additional support.
-
-• All your data is kept private and secure.
-
-The app interface is designed to be easy to use.
-
-Whether you're running a small business or managing your personal finances, this app has it covered!
+Pi Accountant simplifies accounting for everyone, whether for personal or small business use.  
+- Chat with the accounting bot anytime for quick assistance.  
+- Connect with a personal accountant for extra support.  
+- All your data is kept private and secure.  
+- Designed for easy use, within the Pi Network ecosystem only.
 
 ⚙️ Installation & Usage
-
-1. Download the app from the source.
-2. Install the files on your device or development environment.
-3. Open the app and log in with your Pi Network account.
-4. Start managing your financial transactions with ease.
+1. Download the project source from GitHub.  
+2. Install dependencies (Node.js / App Studio environment):  
+   ```bash
+   npm install
+   Run the application:
+   npm start
+   Log in with your Pi Network account and start managing your finances.
 
 🤝 Contribution
-
-We welcome contributions from Pi community members only, provided that all additions and modifications are compatible with the Pi Ecosystem.
-- You can suggest improvements
-- Report bugs via the Issues section
-- Submit merge requests (Pull Requests)
+Contributions are welcome from Pi community members only:
+	•	Suggest improvements via GitHub Issues
+	•	Report bugs
+	•	Submit Pull Requests
+⚠️ Make sure no sensitive data or credentials are included in contributions.
 
 📜 License
-
 This project is licensed under the PiOS License.
-• You may use, modify, and share it within the Pi Network ecosystem only.
-• It may not be used, copied, or distributed outside the Pi Ecosystem.
-• All rights reserved to the Pi community and the project owner.
+	•	You may use, modify, and share it only within the Pi Network ecosystem.
+	•	It cannot be copied or distributed outside the Pi ecosystem.
+	•	All rights reserved to the Pi community and the project owner.
 
-✨ Developed to be your financial partner in the Pi Network world ✨
+✨ Developed as your financial partner in the Pi Network world ✨
