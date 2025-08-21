@@ -1,50 +1,49 @@
+📊 Accountant for Pi | محاسب بى
 
-📊  Accountant for Pi | محاسب باي
+Your personal accounting assistant, designed specifically for Pi users!
+The app helps you manage all your financial transactions in a simple and easy way.
 
-مساعدك المحاسبي الشخصي، المصمم خصيصًا لمستخدمي شبكة باي!
-يساعدك التطبيق على إدارة جميع معاملاتك المالية بطريقة بسيطة وسهلة.
+🚀 Features
 
-🚀 المميزات (Features)
-	
- •	🔹 تتبع رصيد محفظة باي والاطلاع على المعاملات الأخيرة
-	•	🔹 إنشاء فواتير المبيعات والمشتريات ببضع نقرات فقط
-	•	🔹 الحصول على مساعدة من مساعد محاسبي مدمج يجيب على أسئلتك
-	•	🔹 إنشاء رموز الاستجابة السريعة (QR Codes) لتسهيل دفعات باي
-	•	🔹 إدارة المخزون وتلقي تنبيهات عند انخفاض الأصناف
-	•	🔹 عرض التقارير المالية مثل بيانات الدخل والميزانيات العمومية
-	•	🔹 دعم كامل باللغتين العربية والإنجليزية
+• 🔹 Track your Pi wallet balance and view recent transactions
+• 🔹 Create sales and purchase invoices with just a few clicks
+• 🔹 Get help from a built-in accounting assistant who will answer your questions
+• 🔹 Create QR codes to facilitate Pi payments
+• 🔹 Manage inventory and receive alerts when items are running low
+• 🔹 View financial reports such as income statements and balance sheets
+• 🔹 Full support in both Arabic and English
 
-📖 نظرة عامة (Overview)
+📖 Overview
 
-يجعل التطبيق المحاسبة سهلة وبسيطة، حتى لو لم تجربها من قبل.
-	•	يمكنك الدردشة مع روبوت المحاسبة في أي وقت للحصول على مساعدة سريعة.
-	•	يتوفر خيار التواصل مع محاسب شخصي إذا كنت بحاجة إلى دعم إضافي.
-	•	جميع بياناتك تبقى خاصة وآمنة.
-	•	واجهة التطبيق مصممة لتكون سهلة الاستخدام.
+The app makes accounting easy and simple, even if you've never tried it before.
+• You can chat with the accounting bot at any time for quick assistance.
+• You can connect with a personal accountant if you need additional support.
 
-سواء كنت تدير مشروعًا صغيرًا أو تتابع شؤونك المالية الشخصية، فهذا التطبيق يُلبي جميع احتياجاتك!
+• All your data is kept private and secure.
 
-⚙️ التثبيت والاستخدام (Installation & Usage)
-	
- 1.	قم بتنزيل التطبيق من المصدر.
-	2.	ثبت الملفات على جهازك أو بيئة التطوير الخاصة بك.
-	3.	افتح التطبيق وسجّل الدخول باستخدام حساب Pi Network الخاص بك.
-	4.	ابدأ إدارة معاملاتك المالية بكل سهولة.
+The app interface is designed to be easy to use.
 
+Whether you're running a small business or managing your personal finances, this app has it covered!
 
-🤝 المساهمة (Contribution)
+⚙️ Installation & Usage
 
-نرحب بالمساهمات من أعضاء مجتمع Pi فقط، على أن تكون جميع الإضافات والتعديلات متوافقة مع Pi Ecosystem.  
-- يمكنك اقتراح تحسينات
-- أو الإبلاغ عن الأخطاء عبر قسم القضايا (Issues)
-- أو إرسال طلبات دمج (Pull Requests
+1. Download the app from the source.
+2. Install the files on your device or development environment.
+3. Open the app and log in with your Pi Network account.
+4. Start managing your financial transactions with ease.
 
+🤝 Contribution
 
-📜 الترخيص (License)
+We welcome contributions from Pi community members only, provided that all additions and modifications are compatible with the Pi Ecosystem.
+- You can suggest improvements
+- Report bugs via the Issues section
+- Submit merge requests (Pull Requests)
 
-هذا المشروع مرخّص تحت PiOS License.
-	•	يحق لك استخدامه وتعديله ومشاركته داخل النظام البيئي لشبكة Pi فقط.
-	•	لا يجوز استخدامه أو نسخه أو توزيعه خارج Pi Ecosystem.
-	•	جميع الحقوق محفوظة لمجتمع باي ومالك المشروع.
+📜 License
 
-✨ تم تطويره ليكون شريكك المالي في عالم Pi Network ✨
+This project is licensed under the PiOS License.
+• You may use, modify, and share it within the Pi Network ecosystem only.
+• It may not be used, copied, or distributed outside the Pi Ecosystem.
+• All rights reserved to the Pi community and the project owner.
+
+✨ Developed to be your financial partner in the Pi Network world ✨
