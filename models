@@ -1,1 +1,16 @@
+// models/userModel.js
 
+// Placeholder for user data structure
+// You can replace with actual database schema (MongoDB / SQL)
+const users = [];
+
+const addUser = (user) => {
+  users.push(user);
+};
+
+const getAllUsers = () => users;
+
+module.exports = {
+  addUser,
+  getAllUsers,
+};
