@@ -37,12 +37,14 @@ The app helps you manage all your financial transactions easily and securely.
 ______________________________________
 ## 📷 Screenshots | لقطات من التطبيق
 
-يمكنك إضافة صور التطبيق بهذا الشكل النهائي في GitHub:  
+![Main Dashboard | الواجهة الرئيسية](./screenshots/main_dashboard.png)
+![Accounting Overview | المحاسبة - دليل الحسابات والتقارير](./screenshots/accounting_overview.png)
+![Invoices | الفواتير - مشتريات ومبيعات](./screenshots/invoices.png)
+![Inventory | المخزون](./screenshots/inventory.png)
+![Settings | الإعدادات](./screenshots/settings.png)
 
-```markdown
-![Main Dashboard](./screenshots/dashboard.png)
-![Invoice Page](./screenshots/invoice.png)
-![Wallet Overview](./screenshots/wallet.png)
+
+
 -----------------------------
 
 ## ⚙️ Installation & Usage
