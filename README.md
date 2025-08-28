@@ -34,8 +34,16 @@ The app helps you manage all your financial transactions easily and securely.
   - `routes/` → API routes connecting frontend & backend  
 
 > **Note:** This project is still under active development. Contributions and suggestions are welcome.
+______________________________________
+## Screenshots
 
----
+Here are some screenshots of the app interface:
+
+![Screenshot 1](assets/screenshots/47C66B87-AEDD-41A8-A904-7D5F5C7CB747.jpeg)  
+![Screenshot 2](assets/screenshots/950A7D1A-1EF7-46D9-8DFB-664E0B429CC4.jpeg)  
+
+*(You can add more images later in the same format when available.)
+-----------------------------
 
 ## ⚙️ Installation & Usage
 1. Download the project source from GitHub.  
