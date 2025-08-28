@@ -35,14 +35,14 @@ The app helps you manage all your financial transactions easily and securely.
 
 > **Note:** This project is still under active development. Contributions and suggestions are welcome.
 ______________________________________
-## Screenshots
+## 📷 Screenshots | لقطات من التطبيق
 
-Here are some screenshots of the app interface:
+يمكنك إضافة صور التطبيق بهذا الشكل النهائي في GitHub:  
 
-![Screenshot 1](assets/screenshots/47C66B87-AEDD-41A8-A904-7D5F5C7CB747.jpeg)  
-![Screenshot 2](assets/screenshots/950A7D1A-1EF7-46D9-8DFB-664E0B429CC4.jpeg)  
-
-*(You can add more images later in the same format when available.)
+```markdown
+![Main Dashboard](./screenshots/dashboard.png)
+![Invoice Page](./screenshots/invoice.png)
+![Wallet Overview](./screenshots/wallet.png)
 -----------------------------
 
 ## ⚙️ Installation & Usage
