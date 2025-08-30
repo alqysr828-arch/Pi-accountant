@@ -1,4 +1,3 @@
-# ============================
 # Node.js / App Studio Files
 # ============================
 
@@ -55,3 +54,6 @@ credentials.json
 # Misc
 *.lock
 *.local
+
+# User uploads (if any)
+uploads/
