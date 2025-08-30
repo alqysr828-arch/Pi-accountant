@@ -1,1 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>محاسب Pi - اختبار الدفع</title>
+  <script src="https://sdk.minepi.com/pi-sdk.js"></script>
+  <script>
+    // اضبط النسخة و sandbox حسب البيئة
+    Pi.init({ version: "2.0", sandbox: true });
+  </script>
+</head>
+<body>
+  <h2>محاسب Pi - اختبار الدفع</h2>
+  <button id="authBtn">Authenticate</button>
+  <div>
+    <input id="amount" placeholder="المبلغ (Pi)" value="0.001" />
+    <input id="memo" placeholder="مذكرة" value="اختبار دفع" />
+    <button id="payBtn">إنشاء دفع</button>
+  </div>
 
+  <script src="/client.js"></script>
+</body>
+</html>
