@@ -1,40 +1,75 @@
-// تحميل مكتبة en
 require('dotenv').config();
 const express = require('express');
+const path = require('path');
+const axios = require('axios');
+const cors = require('cors');
+
 const app = express();
-
-// إعدادات عامة
-const PORT = process.env.APP_PORT || 3000;
-
-// ميدل وير
+app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'public')));
 
-// ----------------------------
-// Pi API Keys & Config
-// ----------------------------
-const piApiKey = process.env.PI_API_KEY || "dummy_api_key";
-const appId = process.env.PI_APP_ID || "dummy_app_id";
-const dbConnection = process.env.DB_CONNECTION_STRING || "dummy_db_connection";
-const secretKey = process.env.APP_SECRET || "dummy_secret";
+const PORT = process.env.PORT || 3000;
 
-// ----------------------------
-// Routes Example
-// ----------------------------
-app.get("/", (req, res) => {
-  res.json({
-    message: "🚀 Pi Accountant API is running!",
-    appId,
-    piApiKey: "hidden_for_security",
-  });
+// تخزين مؤقت للمدفوعات للاختبار (استبدل بقاعدة بيانات لاحقاً)
+const payments = new Map();
+
+/**
+ * ملاحظة مهمة:
+ *  - هنا نعرض دوال جاهزة للتكامل مع Pi backend.
+ *  - استبدل عنوان URL وطرق المصادقة وفق توثيق بوابة مطوري Pi.
+ */
+async function approvePaymentOnPi(paymentId) {
+  // ضع هنا نداء حقيقي إلى واجهة Pi باستخدام PI_API_KEY
+  // مثال توضيحي (غير نهائي — راجع توثيق Pi لعنوان النداء الصحيح)
+  // return axios.post('https://api.pi.example/payments/approve', { paymentId }, { headers: { Authorization: `Bearer ${process.env.PI_API_KEY}` }});
+  return { data: { ok: true } };
+}
+
+async function completePaymentOnPi(paymentId, txid) {
+  // تحقق/أخبر Pi بأن العملية اكتملت
+  return { data: { ok: true } };
+}
+
+// نقاط نهاية الخادم لاختبار دورة الدفع
+app.post('/payments/approve', async (req, res) => {
+  const { paymentId } = req.body;
+  console.log('Approve request received for:', paymentId);
+  payments.set(paymentId, { status: 'approved' });
+
+  try {
+    const resp = await approvePaymentOnPi(paymentId);
+    console.log('Pi approve response:', resp.data);
+    return res.json({ ok: true });
+  } catch (err) {
+    console.error('Error approving on Pi:', err.message || err);
+    return res.status(500).json({ ok: false, error: err.message || err });
+  }
 });
 
-// استدعاء مسارات جاهزة
-const userRoutes = require('./routes/userRoutes');
-app.use('/api/users', userRoutes);
+app.post('/payments/complete', async (req, res) => {
+  const { paymentId, txid } = req.body;
+  console.log('Complete request received for:', paymentId, txid);
+  payments.set(paymentId, { status: 'completed', txid });
 
-// ----------------------------
-// تشغيل السيرفر
-// ----------------------------
+  try {
+    const resp = await completePaymentOnPi(paymentId, txid);
+    console.log('Pi complete response:', resp.data);
+    // هنا تسلّم المنتج/الخدمة (اختباري: نطبع فقط)
+    console.log(`Delivering product for payment ${paymentId}`);
+    return res.json({ ok: true });
+  } catch (err) {
+    console.error('Error completing on Pi:', err.message || err);
+    return res.status(500).json({ ok: false, error: err.message || err });
+  }
+});
+
+app.get('/payments/status/:id', (req, res) => {
+  const p = payments.get(req.params.id) || null;
+  res.json({ paymentId: req.params.id, data: p });
+});
+
 app.listen(PORT, () => {
-  console.log(`✅ Server running on port ${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
