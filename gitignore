@@ -1,1 +1,40 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
 
+# Build
+dist/
+build/
+out/
+
+# Env files
+.env
+.env.*
+backend/.env
+frontend/.env*
+reverse-proxy/.env*
+
+# System / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Temp
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# App specific
+.pi_cache/
+.pi_temp/
+.pi_build/
+uploads/
+
+# Locks
+*.lock
+*.local
