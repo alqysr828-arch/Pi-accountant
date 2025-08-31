@@ -1,1 +1,14 @@
+# Development Guide
 
+## Backend
+- cd backend && cp .env.example .env
+- املأ القيم الخضراء (PI_APP_ID, PI_API_KEY, SESSION_SECRET, ...).
+- شغل: npm run dev أو yarn dev
+
+## Frontend
+- cd frontend && cp .env.development.example .env.development
+- املأ VITE_BACKEND_URL (عادة: http://localhost:8000).
+- شغل: npm run dev ثم افتح http://localhost:5173
+
+## Sandbox
+- استخدم SANDBOX=true أثناء التطوير (داخل .env.backend و .env.frontend).
