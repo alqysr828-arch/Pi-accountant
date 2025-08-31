@@ -1,15 +1,1 @@
-// controllers/userController.js
 
-// Placeholder for user-related logic (CRUD)
-const getUsers = (req, res) => {
-  res.json({ message: "This is a placeholder for getting users" });
-};
-
-const createUser = (req, res) => {
-  res.json({ message: "This is a placeholder for creating a user" });
-};
-
-module.exports = {
-  getUsers,
-  createUser,
-};
