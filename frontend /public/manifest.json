@@ -1,0 +1,9 @@
+{
+  "short_name": "PiAcct",
+  "name": "Pi Accountant",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#222222",
+  "background_color": "#ffffff"
+}
