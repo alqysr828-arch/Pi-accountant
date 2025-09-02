@@ -1,6 +1,6 @@
 {
   "name": "pi-accountant-backend",
-  "version": "0.1.0",
+  "version": "v0.1.0",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
