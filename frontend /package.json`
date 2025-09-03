@@ -1,28 +1,26 @@
-
-## (C) الواجهة الأمامية frontend/ (React + Vite)
-
-### frontend/package.json
-```json
 {
-  "name": "pi-accountant-frontend",
+  "name": "pi-accountant-backend",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 5173"
+    "build": "tsc",
+    "dev": "ts-node-dev --transpile-only --respawn src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "echo \"(add eslint if needed)\"",
+    "pm2": "pm2 start processes.config.js --env production"
   },
   "dependencies": {
     "axios": "^1.7.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.0"
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
   }
 }
-
- 
